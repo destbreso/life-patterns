@@ -1,0 +1,23 @@
+#N 14c/65 reaction
+#O Martin Grant
+#C An R-pentomino that meets a spark reappears 14 cells forward after 65 generations.
+#C The reaction chained into a p150 wick, on a Moebius strip of height 210 (a Klein
+#C bottle): the wick is its own mirror image 210 rows on.
+#C https://conwaylife.com/wiki/14c/65_reaction
+x = 210, y = 210, rule = B3/S23:K210*+1,210
+92bobo3bo$94bo3bo$89bo8bo$94bo$89bobo4b2o$93b3o2$96bo$90bobob2obo$90bo
+2bo3bo$90bo4b2o$93b3o3$111b2o$111b2obo$110b2o2bo$109b2ob3o$112bo3b2o$
+115b4o$118bo$112bo5bo$111b2obo$115b3o$111bo$110bo$109bo$109b2o$110bo4$
+96bo$95b3o$94b2o2bo$95bo2bo2$97bo$96b2ob2o$96b2obo$96bobo8$111b3o$110b
+o3bo$114bo$110bobob2o$111b2ob2o$113bo11$95b3o$95b3obo$100b2o$100b2o$
+99b2o$99bo8$102bo$102b2o$102b3o6b2o$102b2o6bo2bo$102bo8b2o$112bo10$
+114b2ob2o$108b2obo3bo2bo$107b2o2bo3bo$95b3o10b3ob2o$94bo2bo10b2o$94bo$
+94bobo$96bo$95b3o$97b2o$96b3o$95bobo$93bo2bo$92b3obo$90b3o$95bo2bo$97b
+2o$94b2obo3$111b2o$112bo2bo$112bob2o$111b2o$114bo3bo$116b2ob2o$117bob
+2o$117b3o$111bo3b2o$111bo2bobo$111bo2b2o6$95b3o$95bobo$95bo2bo$92b3o2b
+2o$92bo$92b2obo$93bo2bo$94bo$95b2obo$96bo3bo$97b3o7$112bo$112bo$111bob
+o2$110bob3o$110b2o2bo$111b2o2bo$113b3o9$96bobo$95b2o2b2o$95bob2ob2o$
+95bo2b4o$96bo2bob2o$97b3obo$99b2o9$101bo2bo$101b4o6b3o$101bo2bo5bo3bo$
+110bo$110b2ob2o$112bo7$116b2o$115bob2o$107bo$96b2o8b3o$95bo2bo7bo2bo$
+95bo11b5o$93bo3b2o10b3o$93bobo$94bo5$97bo$98bo2$90b3o4b2o$90b3o2b2obo$
+93b3obobo$94bo3b2o2$111b3o!

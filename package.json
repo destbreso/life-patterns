@@ -1,0 +1,14 @@
+{
+  "name": "life-patterns",
+  "private": true,
+  "description": "Game of Life patterns, LifeWiki's pattern database and our own, with an index generated from the files.",
+  "type": "module",
+  "scripts": {
+    "import:lifewiki": "node scripts/import-lifewiki.mjs",
+    "index": "node scripts/build-index.mjs",
+    "check": "node scripts/build-index.mjs --check"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
