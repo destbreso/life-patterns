@@ -98,3 +98,57 @@ export function readPattern(text, ext) {
   // (a header of 0 by 0, as some patterns for a bounded grid give, says nothing: the cells' box does)
   return { name, author, notes, rule: normalizeRule(rule), width: num("x") || r.width, height: num("y") || r.height, cells: r.cells };
 }
+
+/** A pattern file's live cells, from its corner: RLE (LifeHistory's odd states alive, its marks and history dead) or
+ *  plaintext. */
+export function cellsOf(text, ext) {
+  const out = [];
+  if (ext === "cells") {
+    let y = 0;
+    for (const l of text.split(/\r?\n/)) {
+      if (l.startsWith("!")) continue;
+      if (!l.trim() && !out.length && !y) continue;
+      for (let x = 0; x < l.length; x++) if (l[x] === "O" || l[x] === "*") out.push([x, y]);
+      y++;
+    }
+    return out;
+  }
+  const history = /rule\s*=\s*LifeHistory/i.test(text);
+  let body = "";
+  for (const l of text.split(/\r?\n/)) {
+    const t = l.trim();
+    if (!t || t.startsWith("#") || /^x\s*=/.test(t)) continue;
+    body += t;
+    if (t.includes("!")) break;
+  }
+  let x = 0,
+    y = 0,
+    run = "",
+    prefix = 0;
+  for (const ch of body) {
+    if (ch === " " || ch === "\t") continue;
+    if (ch >= "0" && ch <= "9") {
+      run += ch;
+      continue;
+    }
+    if (ch === "!") break;
+    const k = run ? Number(run) : 1;
+    run = "";
+    if (/[p-y]/.test(ch)) {
+      prefix = (ch.charCodeAt(0) - 111) * 24;
+      run = String(k === 1 ? "" : k);
+      continue;
+    }
+    if (ch === "$") {
+      y += k;
+      x = 0;
+    } else if (ch === "b" || ch === ".") x += k;
+    else {
+      const state = ch === "o" ? 1 : /[A-X]/.test(ch) ? ch.charCodeAt(0) - 64 + prefix : 1;
+      if (!history || state % 2 === 1) for (let i = 0; i < k; i++) out.push([x + i, y]);
+      x += k;
+    }
+    prefix = 0;
+  }
+  return out;
+}

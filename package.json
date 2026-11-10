@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "import:lifewiki": "node scripts/import-lifewiki.mjs",
-    "index": "node scripts/build-index.mjs",
-    "check": "node scripts/build-index.mjs --check"
+    "index": "node scripts/build-index.mjs && node scripts/classify.mjs && node scripts/build-index.mjs",
+    "check": "node scripts/build-index.mjs --check && node scripts/classify.mjs --check 40"
   },
   "engines": {
     "node": ">=20"
