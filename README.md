@@ -5,8 +5,9 @@ Game of Life patterns for any page or program to load: LifeWiki's pattern databa
 ## What is here
 
 - `patterns/lifewiki/`: conwaylife.com's pattern database (`all.zip`, compiled on 2026-11-07), every RLE file exactly as it comes, and a `.cells` file only where a pattern has no RLE (13 of them). Its own `_README_.txt` is kept beside them.
+- `patterns/lifewiki-oca/`: conwaylife.com's other download, about 75 patterns for other cellular automata (`oca.zip`): HighLife, Day & Night, Seeds, Maze, 2x2, Move, Life without Death and others, and a few for rules that are not Life-like (Brian's Brain, non-totalistic and MAP rules). 78 files.
 - `patterns/destbreso/`: patterns made for destbreso.com.
-- `index/patterns.json`: one entry a pattern, from what its file says: `id`, `file`, `name`, `author`, `about` (its first note), `rule`, `width`, `height`, `cells` (live cells), `synthesis` (a glider synthesis, not the pattern alone) and `wiki` (its LifeWiki page). 5,034 patterns today.
+- `index/patterns.json`: one entry a pattern, from what its file says: `id`, `file`, `name`, `author`, `about` (its first note), `rule`, `width`, `height`, `cells` (live cells), `synthesis` (a glider synthesis, not the pattern alone) and `wiki` (its LifeWiki page). The rule is written one way, `B3/S23` for Conway's whether a file says `B3/S23`, `b3/s23` or `23/3`; one that is not Life-like stays as its file writes it. 5,112 patterns today.
 
 ## Loading a pattern
 
@@ -25,10 +26,11 @@ Put its RLE in `patterns/destbreso/`, with a `#N` line for its name, `#O` for wh
 
 ## Updating from LifeWiki
 
-conwaylife.com does not serve its database to scripts, so it is downloaded by hand: open <https://conwaylife.com/patterns/all.zip> in a browser, unzip it, then
+conwaylife.com does not serve its database to scripts, so it is downloaded by hand: open <https://conwaylife.com/patterns/all.zip> (and, for the other automata, the smaller zip LifeWiki's main page links beside it) in a browser, unzip each, then
 
 ```sh
-npm run import:lifewiki -- <the unzipped folder>
+npm run import:lifewiki -- <the unzipped all.zip>
+npm run import:lifewiki -- <the unzipped oca.zip> lifewiki-oca
 npm run index
 ```
 

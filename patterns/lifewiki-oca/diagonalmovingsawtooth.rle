@@ -1,0 +1,31 @@
+#N diagonalmovingsawtooth.rle
+#C https://conwaylife.com/wiki/Moving_sawtooth
+#C https://www.conwaylife.com/patterns/diagonalmovingsawtooth.rle
+#C A moving sawtooth with a repeating minimum population of 540.
+#C This uses two symmetrically placed diagonal c/12 period 96
+#C backward rakes whose output gliders suppress gliders from
+#C the other rake.
+#C David I. Bell, 11 June 2025
+x = 136, y = 122
+58bo$57bobo$56bo3bo13b3o$56bo3bo8bo$56bobob3o4boob3o$57boobobbo5boboo$
+61bobo8bo$61boo11bobbo5boo$74b3o6boo$46bo$46bo$46bo$49boo$49boo12boo$
+44bo3b3o11boo$45b3o15bo$46bo15b3o$45boo15b3o23boo$45b3o16bo22b4o$47bo
+14bobbo20bo3bo$45bo16b3o26bo$47bo15bo27bo$45b3o44bo$$128boo$128boo3$
+60bobo$60bobbo56bo$60bobbo56bo$60bo3bo52b4o$50boo9bobo52bobbo11bo$50b
+oo10bo53bo13boo$116bobbo9bo3bo$117boo11boobbo$135bo$132bobo$133bo$133b
+o$58boo73boo$58boo73boo4$132bo$52b3o76bo$52b3o44bo31boo$53bo40bo5bo32b
+o$23b3o28boo38bo6bo30b3o$23b3o29bo39bobobbo31b3o$24bo29bo67boo$25boo
+66b3o17boo7boo$26bo66b3o17boo$25bo14boo51bobo13bo$40boo10boo39bobo12b
+oo$52boo39boboo10bo3bo13bo$53bo18bo20bobbo11boobbo11b3o$23boo46bo22bob
+o16bo$12bo10boo47bo20boo15bobo4bobo4bo3bo$7bobbobobbo3bo4bo70bo15bo4b
+5oboo4bo$7bo4boob5o4bo15bo70bo4bo3bobbobobbo$7bo3bo4bobo4bobo15boo20bo
+47boo10bo$22bo16bobo22bo46boo$9b3o11bobboo11bobbo20bo18bo$10bo13bo3bo
+10boobo39boo$26boo12bobo39boo10boo$26bo13bobo51boo14bo$21boo17b3o66bo$
+12boo7boo17b3o66boo$12boo67bo29bo$b3o31bobbobo39bo29b3o$b3o30bo6bo38b
+oo28b3o$bbo32bo5bo40bo$3boo31bo44b3o$4bo76b3o$3bo4$boo73boo$boo73boo$
+bbo$bbo$bobo$o$bobboo11boo$bbo3bo9bobbo$4boo13bo53bo10boo$4bo11bobbo
+52bobo9boo$15b4o52bo3bo$15bo56bobbo$15bo56bobbo$73bobo3$6boo$6boo$$43b
+o44b3o$44bo27bo15bo$44bo26b3o16bo$45bo3bo20bobbo14bo$45b4o22bo16b3o$
+46boo23b3o15boo$71b3o15bo$72bo15b3o$72boo11b3o3bo$71boo12boo$85boo$89b
+o$89bo$89bo$51boo6b3o$51boo5bobbo11boo$63bo8bobo$63boobo5bobboboo$63b
+3oboo4b3obobo$66bo8bo3bo$59b3o13bo3bo$76bobo$77bo!
