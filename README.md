@@ -6,7 +6,8 @@ Game of Life patterns for any page or program to load: LifeWiki's pattern databa
 
 - `patterns/lifewiki/`: conwaylife.com's pattern database (`all.zip`, compiled on 2026-11-07), every RLE file exactly as it comes, and a `.cells` file only where a pattern has no RLE (13 of them). Its own `_README_.txt` is kept beside them.
 - `patterns/lifewiki-oca/`: conwaylife.com's other download, about 75 patterns for other cellular automata (`oca.zip`): HighLife, Day & Night, Seeds, Maze, 2x2, Move, Life without Death and others, and a few for rules that are not Life-like (Brian's Brain, non-totalistic and MAP rules). 78 files.
-- `patterns/destbreso/`: patterns made for destbreso.com.
+- `patterns/destbreso/`: patterns made for destbreso.com, the site's prompt among them, with a gallery in its README.
+- `renders/destbreso/`: their pictures, a GIF, a still PNG and an avatar for each (not read by the index).
 - `index/patterns.json`: one entry a pattern, from what its file says: `id`, `file`, `name`, `author`, `about` (its first note), `rule`, `width`, `height`, `cells` (live cells), `synthesis` (a glider synthesis, not the pattern alone) and `wiki` (its LifeWiki page). The rule is written one way, `B3/S23` for Conway's whether a file says `B3/S23`, `b3/s23` or `23/3`; one that is not Life-like stays as its file writes it. 5,112 patterns today.
 - `does`, in the same entries: what the pattern does, found by running it (`scripts/classify.mjs`, kept by file in `index/behaviour.json` with the file's hash, so a changed file is run again): `still`, `oscillator` with its `period`, `ship` with its `period` and how far it moves (`dx`, `dy`), `gun` with its `period` and the cells it adds each period, `dies` with the generation, or `evolving` when it is still changing at the end of its run; `from` is the generation it settled into that. 4,456 patterns have it today: 2,399 oscillators, 767 still lifes, 333 ships, 224 guns, 58 that die and 675 still changing.
 
