@@ -1,0 +1,8 @@
+#N Nine-cell methuselah, 5160
+#O David Estévez, 2026-11-11
+#C A methuselah of 9 cells in an 8 by 3 box that settles at generation 5160 into 571 cells.
+#C Found by searching around lavashard's 9-cell methuselah of 1151 generations (ConwayLife Lounge,
+#C 2026-11-11), moving three of its cells; it leaves 10 gliders, 44 blocks, 17 beehives, 10 loaves,
+#C 6 boats, 4 ships, a pond and 37 blinkers. Checked in bgolly. Rabbits and Bunnies 9 live longer.
+x = 8, y = 3, rule = B3/S23
+2o3bo$o5bo$o4b3o!

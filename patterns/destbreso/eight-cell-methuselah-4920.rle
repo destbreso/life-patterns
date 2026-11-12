@@ -1,0 +1,8 @@
+#N Eight-cell methuselah, 4920
+#O David Estévez, 2026-11-11
+#C A methuselah of 8 cells in a 7 by 3 box that settles at generation 4920 into 704 cells.
+#C Found by searching around lavashard's 9-cell methuselah of 1151 generations (ConwayLife Lounge,
+#C 2026-11-11); it leaves 15 gliders, 55 blocks, 32 beehives, 9 boats, 4 ships, 2 tubs, a pond and
+#C 44 blinkers. Checked in bgolly. 7468M lives longer with 8 cells.
+x = 7, y = 3, rule = B3/S23
+6bo$bo2bobo$3o3bo!

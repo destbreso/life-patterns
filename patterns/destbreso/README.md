@@ -17,3 +17,12 @@ Their pictures are in [renders/destbreso](../../renders/destbreso): for each pat
 | [Living prompt](living-prompt.rle) | The chevron alive: 132 of its cells change every generation and its outline reads whole in both phases. | 157 | oscillator, 2 | <img src="../../renders/destbreso/living-prompt.gif" width="160" alt="Living prompt"> |
 | [Living prompt, period 3](living-prompt-p3.rle) | A chevron of period 3 beside a cursor of period 2, so the whole repeats every 6. | 201 | oscillator, 6 | <img src="../../renders/destbreso/living-prompt-p3.gif" width="160" alt="Living prompt, period 3"> |
 | [Flying prompt](flying-prompt.rle) | Fifteen lightweight spaceships in the shape of >_, flying east together, seven cells apart. | 135 | ship, 4, (2, 0) | <img src="../../renders/destbreso/flying-prompt.gif" width="160" alt="Flying prompt"> |
+
+## Methuselahs
+
+Small patterns that live long before they settle, found on 2026-11-11 by searching around lavashard's 9-cell methuselah of 1151 generations in the ConwayLife Lounge: about 35,000 variants with cells added, removed or moved, each run in bgolly. They are a local best, not records (Rabbits and Bunnies 9 live past 17,000 generations with 9 cells, 7468M 7,468 with 8). The index runs a pattern for 2,048 generations, so it has them as still changing. Their GIFs, in [renders/destbreso](../../renders/destbreso), follow the pattern from its start out to the ash it leaves, its escaping gliders left to go, with the generation and the population under it.
+
+| Pattern | What it is | Cells | Settles | Picture |
+|---|---|---:|---|---|
+| [Nine-cell methuselah, 5160](nine-cell-methuselah-5160.rle) | 9 cells in 8 by 3: lavashard's with three cells moved | 9 | at 5160, into 571 cells and 10 gliders | <img src="../../renders/destbreso/nine-cell-methuselah-5160.gif" width="160" alt="Nine-cell methuselah, 5160"> |
+| [Eight-cell methuselah, 4920](eight-cell-methuselah-4920.rle) | 8 cells in 7 by 3 | 8 | at 4920, into 704 cells and 15 gliders | <img src="../../renders/destbreso/eight-cell-methuselah-4920.gif" width="160" alt="Eight-cell methuselah, 4920"> |
