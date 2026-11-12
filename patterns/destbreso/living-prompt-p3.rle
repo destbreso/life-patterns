@@ -1,0 +1,16 @@
+#N Living prompt, period 3
+#O David Estévez, 2026-11-11
+#C The prompt of destbreso.com, >_, its chevron an oscillator of period 3, its cursor of 2.
+#C The chevron traces the outline of the site mark's stroke and reads whole in its three phases,
+#C 44 of its cells changing in its own rhythm; found with a SAT solver, symmetric. The cursor is a
+#C row of seven blinkers; the whole pattern repeats every 6 generations.
+#C https://destbreso.com
+x = 55, y = 56, rule = B3/S23
+3bob2ob2o$b4ob2ob3o$o11bo$b2o8b2o$2bo8bo$bo10bo$b2o10bobo$2bo11b2o$bo
+14b2o$2b3o11bo$5bo11bobo$4bobo$4b2o12bobo$20b2o$7b2o11b2o$7b2o12bobo2$
+10b2o10bobo$11bo13bo$11bobo10b2o$12b2o14bo$14b2o11bobo$14bobo10b2obo$
+16bo13bo$15bo14b2o$15b2o2$18b2o11b2o$18b2o11b2o2$15b2o$15bo14b2o$16bo
+13bo$14bobo10b2obo$14b2o11bobo$12b2o14bo$11bobo10b2o$11bo13bo$10b2o10b
+obo2$7b2o12bobo$7b2o11b2o$20b2o$4b2o12bobo$4bobo$5bo11bobo8b3ob3ob3ob
+3ob3ob3ob3o$2b3o11bo$bo14b2o$2bo11b2o$b2o10bobo$bo10bo$2bo8bo$b2o8b2o$
+o11bo$b4ob2ob3o$3bob2ob2o!

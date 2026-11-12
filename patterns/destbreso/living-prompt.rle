@@ -1,0 +1,15 @@
+#N Living prompt
+#O David Estévez, 2026-11-11
+#C The prompt of destbreso.com, >_, as a Life oscillator of period 2 whose chevron is alive.
+#C The chevron traces the outline of the site mark's stroke and reads whole in both phases, while
+#C 132 of its cells change every generation; found with a SAT solver, symmetric. The cursor is a
+#C row of seven blinkers, so it blinks.
+#C https://destbreso.com
+x = 55, y = 58, rule = B3/S23
+3b2o$4bo2b3o$2bo5b3o$2b2o$2o10bo$bo10b2o$o11b2o$2o11bo2$15b2o$2b2o11bo
+$2bobo11bobo$3bo$18bobo$5b2o$5bo14bobo$6bobo$22bobo$8bobo$24bobo$10bob
+o$26bobo$12bobo$28bobo$14bobo14bo$30b2o$16bobo$17b2o$31b2o$31b2o$17b2o
+$16bobo$30b2o$14bobo14bo$28bobo$12bobo$26bobo$10bobo$24bobo$8bobo$22bo
+bo$6bobo$5bo14bobo$5b2o$18bobo$3bo$2bobo11bobo9b3ob3ob3ob3ob3ob3ob3o$
+2b2o11bo$15b2o2$2o11bo$o11b2o$bo10b2o$2o10bo$2b2o$2bo5b3o$4bo2b3o$3b2o
+!

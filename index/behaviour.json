@@ -3,6 +3,8 @@
 "destbreso/blinking-prompt-small":{"hash":"1a9abfb440c7","does":{"kind":"oscillator","period":2,"from":0}},
 "destbreso/blinking-prompt":{"hash":"f0dad9519c41","does":{"kind":"oscillator","period":2,"from":0}},
 "destbreso/flying-prompt":{"hash":"a4c7d5322842","does":{"kind":"ship","period":4,"dx":2,"dy":0,"from":0}},
+"destbreso/living-prompt-p3":{"hash":"34709d543eaf","does":{"kind":"oscillator","period":6,"from":0}},
+"destbreso/living-prompt":{"hash":"aec6a6728f6a","does":{"kind":"oscillator","period":2,"from":0}},
 "lifewiki/101":{"hash":"edb6600857dd","does":{"kind":"oscillator","period":5,"from":0}},
 "lifewiki/103p4h1v0":{"hash":"99000179806e","does":{"kind":"ship","period":4,"dx":-1,"dy":0,"from":0}},
 "lifewiki/103p69":{"hash":"d73807e4b05f","does":{"kind":"oscillator","period":69,"from":0}},
