@@ -1,0 +1,20 @@
+#N Blinking prompt, filled
+#O David Estévez, 2026-11-11
+#C The prompt of destbreso.com, >_, as a Life oscillator of period 2, its stroke filled.
+#C The chevron is a symmetric still life of 340 cells filling the site mark's stroke, found with
+#C a SAT solver asking every 3 by 3 square inside the stroke to hold at least four live cells;
+#C the cursor is two rows of blinkers, so it blinks.
+#C https://destbreso.com
+x = 56, y = 56, rule = B3/S23
+4bo$3bobobo$3bobob3o$2b2ob2o3bo$bo2bo3b2o$ob2o2b2obobo$bo2b2obobob3o$
+3bo2bo2b2o3bo$bob2obobo3b2obo$b2o2bobob3obo2bo$4bo2bo2bo2bo3bo$5b2obo
+3bob4o$7bob3obo$7bobo2bo2b2obo$6b2o2bobob2ob2o$8b2obobo5b2o$8bo2bo2bob
+3o2bo$9b2obob2obo2bobo$11bobo5b2obo$11bobob4o2bo$12bobobo2bobobo$13bo
+4bobobobo$14b4obo2bo2bo$16bo2bob2ob2o2bo$18b2o2bo2bobobo$16bobo2bo2bo
+2bo2bo$16b2o2b2ob2ob2ob2o$21bo2bo2bo$21bo2bo2bo$16b2o2b2ob2ob2ob2o$16b
+obo2bo2bo2bo2bo$18b2o2bo2bobobo$16bo2bob2ob2o2bo$14b4obo2bo2bo$13bo4bo
+bobobo$12bobobo2bobobo$11bobob4o2bo$11bobo5b2obo$9b2obob2obo2bobo$8bo
+2bo2bob3o2bo$8b2obobo5b2o$6b2o2bobob2ob2o$7bobo2bo2b2obo$7bob3obo13b3o
+b3ob3ob3ob3ob3ob3o$5b2obo3bob4o$4bo2bo2bo2bo3bo$b2o2bobob3obo2bo$bob2o
+bobo3b2obo13b3ob3ob3ob3ob3ob3ob3o$3bo2bo2b2o3bo$bo2b2obobob3o$ob2o2b2o
+bobo$bo2bo3b2o$2b2ob2o3bo$3bobob3o$3bobobo$4bo!

@@ -1,0 +1,14 @@
+#N Flying prompt
+#O David Estévez, 2026-11-11
+#C The prompt of destbreso.com, >_, as a fleet that flies east at c/2 and keeps its shape.
+#C Fifteen lightweight spaceships, eleven in the chevron and four in the cursor, seven cells
+#C apart, the closest they fly without touching: every 4 generations the fleet is itself, two
+#C cells east.
+#C https://destbreso.com
+x = 68, y = 74, rule = B3/S23
+o2bo$4bo$o3bo$b4o4$7bo2bo$11bo$7bo3bo$8b4o4$14bo2bo$18bo$14bo3bo$15b4o
+4$21bo2bo$25bo$21bo3bo$22b4o4$28bo2bo$32bo$28bo3bo$29b4o4$35bo2bo$39bo
+$35bo3bo$36b4o4$28bo2bo$32bo$28bo3bo$29b4o4$21bo2bo$25bo$21bo3bo$22b4o
+4$14bo2bo$18bo$14bo3bo$15b4o4$7bo2bo$11bo$7bo3bo$8b4o4$o2bo38bo2bo3bo
+2bo3bo2bo3bo2bo$4bo41bo6bo6bo6bo$o3bo37bo3bo2bo3bo2bo3bo2bo3bo$b4o38b
+4o3b4o3b4o3b4o!

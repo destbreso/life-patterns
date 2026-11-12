@@ -1,0 +1,11 @@
+#N Blinking prompt, small
+#O David Estévez, 2026-11-11
+#C The prompt of destbreso.com, >_, as a Life oscillator of period 2, in its smallest version.
+#C The chevron is a still life of 60 cells tracing the outline of the site mark's stroke, found
+#C with a SAT solver as the fewest cells that do it symmetrically at this size, with a block at
+#C its tip; the cursor is a row of four blinkers, so it blinks.
+#C https://destbreso.com
+x = 30, y = 28, rule = B3/S23
+4b2o$2o2bobo$o6bo$bo6bo$2bo6bo$3bo6bo$4bo6bo$5bo6bo$6bo6bo$7bo6bo$6b2o
+7bo$16bo$15b2o$9b2o$9b2o$15b2o$16bo$6b2o7bo$7bo6bo$6bo6bo$5bo6bo$4bo6b
+o$3bo6bo4b3ob3ob3ob3o$2bo6bo$bo6bo$o6bo$2o2bobo$4b2o!
