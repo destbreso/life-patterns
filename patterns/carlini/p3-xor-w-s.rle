@@ -1,4 +1,4 @@
-#N XOR, both inputs on (Carlini, Part 3)
+#N Spaceship XOR, both inputs on (Carlini, Part 3)
 #O Nicholas Carlini, 2021
 #C Both inputs on: three ships get out before the second input arrives, then none.
 #C Part 3: Improved Logic Gates on Conway's Game of Life - Part 3 (2021-03-23)

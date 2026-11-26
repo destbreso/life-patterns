@@ -1,6 +1,6 @@
-#N Phase, fixed with delays (Carlini, Part 5)
+#N Inputs put in step with delays (Carlini, Part 5)
 #O Nicholas Carlini, 2022
-#C Delay tiles hold the early input back, the slots line up again, and the AND gives its slot.
+#C A multiplexed AND whose inputs arrive a slot apart, put back in step by delay tiles holding the early one back: the AND gives its slot.
 #C Part 5: Multiplexing Circuits on the Game of Life - Part 5 (2022-02-27)
 #C https://nicholas.carlini.com/writing/2022/multiplexing-circuits-game-of-life.html
 #C Section: An initial attempt at fixing phase

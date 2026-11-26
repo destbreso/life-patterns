@@ -1,14 +1,14 @@
 # Nicholas Carlini's circuits
 
-Logic built in the Game of Life from glider and lightweight spaceship streams, by Nicholas Carlini, in his series of five posts (2020 to 2022). He gave permission on 2026-11-25 for his constructions to be used in destbreso.com's simulator, credited with his name and a link to the post each comes from; these files are that simulator's copies.
+Logic built in the Game of Life from glider and lightweight spaceship streams, by Nicholas Carlini, in his series of five posts (2020 to 2022). He gave permission on 2026-11-25 for his constructions to be used in destbreso.com's simulator, credited with his name and a link to the post each comes from; these files are that simulator's copies. Only his constructions that do what they are for are here: the demonstrations of something failing in his posts (two streams crossing with no crossover, phase lost, a loop out of phase) are left out, and so are his two D flip-flops, the first because from its third clock edge its data changes while its gates read it, the second because its behaviour was not checked.
 
 | Part | Post | What it builds |
 |---|---|---|
 | 1 | [Digital Logic Gates on Conway's Game of Life](https://nicholas.carlini.com/writing/2020/digital-logic-game-of-life.html) (2020-04-01) | three collisions, NOT, AND, OR, the crossover, the rotator and the duplicator in their input states, and a 4-bit adder |
-| 2 | [An Introduction to Circuit Design on Conway's Game of Life](https://nicholas.carlini.com/writing/2020/intro-to-circuits-game-of-life.html) (2020-06-01) | a clock, a rising-edge detector, a latch, a D flip-flop |
-| 3 | [Improved Logic Gates on Conway's Game of Life](https://nicholas.carlini.com/writing/2021/improved-logic-gates-game-of-life.html) (2021-03-23) | a spaceship stream, three collisions, the gates again with lightweight spaceships (XOR among them), a compact D flip-flop, a 7-segment display |
+| 2 | [An Introduction to Circuit Design on Conway's Game of Life](https://nicholas.carlini.com/writing/2020/intro-to-circuits-game-of-life.html) (2020-06-01) | a clock, a rising-edge detector, a latch |
+| 3 | [Improved Logic Gates on Conway's Game of Life](https://nicholas.carlini.com/writing/2021/improved-logic-gates-game-of-life.html) (2021-03-23) | a spaceship stream, three collisions, the gates again with lightweight spaceships (XOR among them), a 7-segment display |
 | 4 | [A Simple CPU on the Game of Life](https://nicholas.carlini.com/writing/2021/unlimited-register-machine-game-of-life.html) (2021-12-30) | two gates of the CPU (an AND with a copy, a copy with a NOT), and the CPU itself, an unlimited register machine running a program that factors 15 |
-| 5 | [Multiplexing Circuits on the Game of Life](https://nicholas.carlini.com/writing/2022/multiplexing-circuits-game-of-life.html) (2022-02-27) | wires carrying four bits at once in slots of 60 generations, a multiplexed AND, the problem of phase and its fixes, and a Fibonacci counter on three decimal displays |
+| 5 | [Multiplexing Circuits on the Game of Life](https://nicholas.carlini.com/writing/2022/multiplexing-circuits-game-of-life.html) (2022-02-27) | wires carrying four bits at once in slots of 60 generations, a multiplexed AND, inputs put in step with delays, a loop that holds its value, and a Fibonacci counter on three decimal displays |
 
 ## Where the files come from
 
@@ -16,4 +16,4 @@ Each post builds its demos with its own scripts. Those scripts, run in a sandbox
 
 ## What was checked
 
-Every one was run in destbreso.com's engine and its behaviour compared with what its post says: the gates' outputs for each of their inputs, the adder's sum (0110 + 0101 settles on 1011 at generation 195,453), the clock, the edge detector, the latch, the display counting 0 to F, the multiplexed wires and gates of Part 5, the Fibonacci counter (1, 2, 3, 5, 8, 13 and on, its last three digits), and the CPU, whose program (read from its ROM) searches for 3 times 5 and which follows that program through generation 245 million of the about 876 million it needs. The D flip-flop of Part 2 stores the right bit at its first two clock edges and breaks from the third, a timing race in the board's layout (bgolly gives the same). The details are in destbreso.com's Game of Life roadmap.
+Every one was run in destbreso.com's engine and its behaviour compared with what its post says: the gates' outputs for each of their inputs, the adder's sum (0110 + 0101 settles on 1011 at generation 195,453), the clock, the edge detector, the latch, the display counting 0 to F, the multiplexed wires and gates of Part 5, the Fibonacci counter (1, 2, 3, 5, 8, 13 and on, its last three digits), and the CPU, whose program (read from its ROM) searches for 3 times 5 and which follows that program through generation 245 million of the about 876 million it needs. The details are in destbreso.com's Game of Life roadmap.

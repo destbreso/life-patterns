@@ -36,6 +36,8 @@ for (const set of SETS) {
     const does = ran[id]?.hash === hash ? ran[id].does : undefined;
     const wiki = p.notes.find((n) => /conwaylife\.com\/wiki/.test(n));
     const about = p.notes.find((n) => !/^(https?:\/\/|www\.)/.test(n));
+    // (a link the file gives that is not its LifeWiki page: its author's page, a post, a forum thread)
+    const link = p.notes.find((n) => /^(https?:\/\/|www\.)\S+$/.test(n) && !/conwaylife\.com\/wiki/.test(n));
     entries.push({
       id,
       file: `patterns/${set}/${file}`,
@@ -49,6 +51,7 @@ for (const set of SETS) {
       cells: p.cells,
       ...(/_synth$/.test(base) ? { synthesis: true } : {}),
       ...(wiki ? { wiki: wiki.startsWith("http") ? wiki : `https://${wiki}` } : {}),
+      ...(link ? { link: link.startsWith("http") ? link : `https://${link}` } : {}),
       ...(does ? { does } : {}),
     });
   }

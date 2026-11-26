@@ -1,6 +1,6 @@
 #N A loop in phase (Carlini, Part 5)
 #O Nicholas Carlini, 2022
-#C The same loop with a delay tile making its round trip whole rounds: the value stays in its slot.
+#C A wire fed back into itself, with a delay tile making its round trip whole rounds: the value it holds stays in its slot, lap after lap.
 #C Part 5: Multiplexing Circuits on the Game of Life - Part 5 (2022-02-27)
 #C https://nicholas.carlini.com/writing/2022/multiplexing-circuits-game-of-life.html
 #C Section: A proper fix for phase (math warning!)
