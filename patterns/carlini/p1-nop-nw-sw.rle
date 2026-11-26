@@ -1,0 +1,31 @@
+#N Two streams crossing, no crossover (Carlini, Part 1)
+#O Nicholas Carlini, 2020
+#C Two streams cross with nothing between them: they wreck each other and scatter debris.
+#C Part 1: Digital Logic Gates on Conway's Game of Life - Part 1 (2020-04-01)
+#C https://nicholas.carlini.com/writing/2020/digital-logic-game-of-life.html
+#C Section: Crossover
+#C Demo 17 on the page: <div class="circuit" kind="nop" nw="1" sw="1">
+#C Board as his page starts it (2020-replay.js, 2020-tree.js, 2020-circs.js); his tree has level 11 (a 2048-cell square from 0,0), outside which his simulator drops cells.
+#CXRLE Pos=4,4
+x = 314, y = 799, rule = B3/S23
+46b2o$46b2o4$46bo$45b3o$44bo3bo$43bob3obo$44b5o6$45bo2b2o$45bobo$26bo
+17b2o$24bobo16b2o$15bo7bobo11b2o4b2obo$14b2o6bo2bo11b2o5b3o$3b2o8b2o4b
+2o2bobo$3b2o7b3o4b2o3bobo$13b2o4b2o5bo18b2o3b2o$14b2o32bo$15bo29bo5bo$
+27bo9bobo6b2ob2o$28bo4b2o2b2o8bobo$26b3o3b3o3bo9bo$31b2o2bo12bo$30bob
+3o$29bo4bo$33bo$30b2o$33bo14b2o$48b2o6$42bo$43bo$41b3o13$57bo$58bo$56b
+3o13$72bo$73bo$71b3o13$87bo$88bo$86b3o13$102bo$103bo$101b3o13$117bo$
+118bo$116b3o13$132bo$133bo$131b3o13$147bo$148bo$146b3o13$162bo$163bo$
+161b3o13$177bo$178bo$176b3o13$192bo$193bo$191b3o13$207bo$208bo$206b3o
+13$222bo$223bo$221b3o13$237bo$238bo$236b3o13$252bo$253bo$251b3o13$267b
+o$268bo$266b3o13$282bo$283bo$281b3o13$297bo$298bo$296b3o13$312bo$313bo
+$311b3o175$312b2o$311bobo$313bo13$297b2o$296bobo$298bo13$282b2o$281bob
+o$283bo13$267b2o$266bobo$268bo13$252b2o$251bobo$253bo13$237b2o$236bobo
+$238bo13$222b2o$221bobo$223bo13$207b2o$206bobo$208bo13$192b2o$191bobo$
+193bo13$177b2o$176bobo$178bo13$162b2o$161bobo$163bo13$147b2o$146bobo$
+148bo13$132b2o$131bobo$133bo13$117b2o$116bobo$118bo13$102b2o$101bobo$
+103bo13$87b2o$86bobo$88bo13$72b2o$71bobo$73bo13$57b2o$56bobo$58bo5$23b
+obo$23bo2bo$8bo6bo10b2o6b2o$7bobo5bo8bo3b2o4b2o$2o4bob2o6bo9b2o$2o3b2o
+b2o9b2o2bo2bo$6bob2o5b3o2bo2bobo$7bobo7b4o$8bo9b2o22b2o$41bobo$43bo2$
+26bo$19b2o6b2o$19b2o5b2o2$29bo$27b2ob2o$27b2obobobo$28b3o$29bo3bo$30bo
+2bo$31bo$27b2o$26bobo$17b2o3b2o4bo$19b3o$18bo3bo$19bobo$20bo2$21b3o$
+21b3o4$19b2o3b2o$20b5o$21b3o$22bo8$21b2o$21b2o!

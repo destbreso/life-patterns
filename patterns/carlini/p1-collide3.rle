@@ -1,0 +1,18 @@
+#N Collision: a thinned stream stops a full one (Carlini, Part 1)
+#O Nicholas Carlini, 2020
+#C A stream of one glider every 60 generations wipes out a full one: each crash leaves a block, and the next glider dies on it.
+#C Part 1: Digital Logic Gates on Conway's Game of Life - Part 1 (2020-04-01)
+#C https://nicholas.carlini.com/writing/2020/digital-logic-game-of-life.html
+#C Section: Glider Collisions
+#C Demo 6 on the page: <div class="circuit" kind="collide3">
+#C Board as his page starts it (2020-replay.js, 2020-tree.js, 2020-circs.js); his tree has level 11 (a 2048-cell square from 0,0), outside which his simulator drops cells.
+#CXRLE Pos=270,270
+x = 50, y = 126, rule = B3/S23
+23b2o$23bobo$11bo12b3o7b2o$8b4o3b2o8b3o6b2o$2o5b4o3b2o8b3o$2o5bo2bo3b
+2obob2o2bobo$7b4o4bobob2o2b2o$8b4o3bob2o$11bo3$25bo$26b2o$25b2o6$32bob
+o$33b2o$33bo5$40bo$41b2o$40b2o6$47bobo$48b2o$48bo41$27b2o$27bo2bo$13bo
+bo15bo6b2o$11bo3bo2b3o10bo6b2o$4b2o5bo19bo$4b2o4bo4bo7b2o2bo2bo$11bo7b
+obo2bo2b2o$11bo3bo5b3o$13bobo$45b2o$46b2o$30bo14bo$31bo$23b2o4b3o$23b
+2o3$33bo3b2o$25b2o5b3ob3o$33bo2b3o$34bo$36bo$35bo$21b2o3b2o7bo$22b5o3b
+2o$22b2ob2o4b2o$22b2ob2o3bo$23b3o5$25b3o$25b3o$24bo3bo$23bo5bo$24bo3bo
+$25b3o10$25b2o$25b2o!

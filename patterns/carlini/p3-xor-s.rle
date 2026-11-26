@@ -1,0 +1,38 @@
+#N XOR, S input on (Carlini, Part 3)
+#O Nicholas Carlini, 2021
+#C One input on: a stream leaves E.
+#C Part 3: Improved Logic Gates on Conway's Game of Life - Part 3 (2021-03-23)
+#C https://nicholas.carlini.com/writing/2021/improved-logic-gates-game-of-life.html
+#C Section: XOR gate
+#C Demo 12 on the page: <div class="circuit" kind="xor" s="1">
+#C Board as his page starts it (2021-replay.js, 2021-tree.js, 2021-circs.js); his tree has level 10 (a 1024-cell square from 0,0), outside which his simulator drops cells.
+#CXRLE Pos=151,163
+x = 150, y = 227, rule = B3/S23
+50b2o$50b2o9$47b2obob2o2$47bo5bo2$48b2ob2o$50bo2$31bo$31b4o$15bo16b4o
+5b2o$14bobo5b2o8bo2bo5b2o$7b2o3b2o3bo14b4o11bo$7b2o3b2o3bo4bobob2o3b4o
+10b2o4b3o$12b2o3bo5b2o3bo2bo14b2o2bo3bo$14bobo10bo$15bo8bo2bo21bo5bo$
+49b2o3b2o3$34bo17bo$35bo15bobo$15b2o16b3o15bobo$15b2o34bo$51bo$51bo2bo
+$52b2o4$102bobo$100bo3bo$100bo19bo$15b3o74bo6bo4bo14b4o$14bo3bo72bobo
+6bo12bo4b2obobo$13bo5bo29bo24b2o14bo3b2o4bo3bo3bob2o5b3obo2bo2b2o$14bo
+3bo31bo23bobo13bo3b2o6bobo2bob4o5b2obobo3b2o$15b3o30b3o18b2o4b3o12bo3b
+2o11b2o2b2o6b4o$15b3o47b4o2bo4b3o12bobo26bo$65b3ob2o4b3o7bo6bo$11b2o
+61bobo9b2o$10bobo61b2o9b2o23b2o9b2o$9bo6b2o91bo2bo7bo2bo$2o7bo2bo2bo2b
+o81bobo6b3o9b3o$2o7bo6b2o82b2o10b9o$10bobo88bo9bo2b5o2bo$11b2o60b2o36b
+2o2b3o2b2o$73bo18bobo$71bobo19b2o$71b2o20bo$64bo40b4o$65bo38bo3bo$63b
+3o42bo$104bo2bo$86b2o9b2o$86bobo7bobo17bobo$77b2o2b2o6bo8bo5bo12bo$77b
+2obo2bo2bo2bo13bobo$81b2o6bo13b2obo4b2o$86bobo14b2ob2o3b2o$86b2o15b2ob
+o$103bobo$104bo3$79bo$80bo$78b3o50b2o4bo2bob2obo2bo$131bobo2b2o2bo4bo
+2b2o$131bo5bo2bob2obo2bo2$133bo$133bo$132b3o3$132b3o$133bo$120bo12bo$
+120b2o11bo$94bo24bobo11bo$95bo36b3o$93b3o2$132b3o$133bo$133bo7$91b2o6b
+2o4bo$90bo2bo4bo2bo3b2o$90bo2bo4bo2bo2bobo$90bo2bo4bo2bo$91b2o6b2o$
+105b3o2$104bo3bo$104bo3bo2$67b2o15b2o19b3o$64bo3bo15bo$63bobo2bobo11bo
+bo$63bobo3b2o11b2o21b3o$61b3ob2o9bo$60bo14bobo26bo3bo$61b3ob2o8bobo26b
+o3bo$63bob2o9bo$105b3o2$60b2o2b2o$60bo2bobo$61bobo$60b2ob2o13b2o$63bo
+14bo$63bobo13b3o$64b2o15bo19$71b3o$71bo2bo$71bo$71bo$72bobo12$56b2o$
+56b2o4$63b2o$62bobo$62bobob2o$63bobobo$65bo$64b2o$63b3o$53b2o3b2o3b3o$
+55b3o5b3o$54bo3bo5b2o5b3o$55bobo7bo5bo2bo$56bo6bobobo3bo7b2o$62bobob2o
+3bo7b2o$62bobo7bobo$63b2o2$53b3o$59bobo$53bobo4b2o$52b5o3bo$51b2o3b2o$
+51b2o3b2o19b2obob2o$72b3o$72bo4bo5bo$67bo5bo$68b2o8b2ob2o$67b3ob2o7bo$
+72b2o$71bo$78bo$77bobo$76bo3bo$76b5o$64bo10b2o3b2o$54b2o3b2o3b2o10b5o$
+63bobo11b3o$55bo3bo18bo$56b3o$56b3o3$59bo$58b3o$57bo3bo$59bo$56bo5bo
+14b2o$56bo5bo14b2o$57bo3bo$58b3o9$59b2o$59b2o!

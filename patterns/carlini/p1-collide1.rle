@@ -1,0 +1,16 @@
+#N Collision: both streams die (Carlini, Part 1)
+#O Nicholas Carlini, 2020
+#C Two glider streams from Gosper guns meet head on and both vanish, glider for glider, as long as they are in step.
+#C Part 1: Digital Logic Gates on Conway's Game of Life - Part 1 (2020-04-01)
+#C https://nicholas.carlini.com/writing/2020/digital-logic-game-of-life.html
+#C Section: Glider Collisions
+#C Demo 4 on the page: <div class="circuit" kind="collide1">
+#C Board as his page starts it (2020-replay.js, 2020-tree.js, 2020-circs.js); his tree has level 11 (a 2048-cell square from 0,0), outside which his simulator drops cells.
+#CXRLE Pos=270,270
+x = 50, y = 120, rule = B3/S23
+23b2o$23bobo$11bo12b3o7b2o$8b4o3b2o8b3o6b2o$2o5b4o3b2o8b3o$2o5bo2bo3b
+2obob2o2bobo$7b4o4bobob2o2b2o$8b4o3bob2o$11bo3$25bo$26b2o$25b2o6$32bob
+o$33b2o$33bo5$40bo$41b2o$40b2o6$47bobo$48b2o$48bo34$34b2o$35b2o$34bo5$
+27bo$27b2o$26bobo5$2b2o$2b2o15b2o$20b2o$19bo5$3bo8bo$2b3o7b2o$b5o5bobo
+$obobobo$2o3b2o3$5b2o$5b2o$7bo$5b3o$3bo$3b5o$4b2o3$2b2o3b2o$3b5o$3b2ob
+2o$3b2ob2o$4b3o6$4b2o$4b2o!

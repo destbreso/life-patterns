@@ -1,0 +1,40 @@
+#N Duplicator, input off (Carlini, Part 1)
+#O Nicholas Carlini, 2020
+#C Nothing comes in, and nothing leaves.
+#C Part 1: Digital Logic Gates on Conway's Game of Life - Part 1 (2020-04-01)
+#C https://nicholas.carlini.com/writing/2020/digital-logic-game-of-life.html
+#C Section: Duplicator
+#C Demo 21 on the page: <div class="circuit" kind="dup">
+#C Board as his page starts it (2020-replay.js, 2020-tree.js, 2020-circs.js); his tree has level 10 (a 1024-cell square from 0,0), outside which his simulator drops cells.
+#CXRLE Pos=275,290
+x = 246, y = 234, rule = B3/S23
+146b2o$146b2o8$145b3o$144bo3bo$143bo5bo$143b2obob2o3$146bo$145bobo$
+145bobo$146b2o$148bo$147b3o$146bo3bo$145bob3obo$141bo4b5o$139b2o$140b
+2o6$132bobo$132b2o$133bo$148b2o$148b2o3$126bo$124b2o$125b2o5$151b2o$
+117bobo31b2o$117b2o$118bo5$111bo$109b2o$110b2o38b3o$149bo3bo$148bo5bo$
+148bo5bo$151bo$43b2o104bo3bo$43b2o57bobo45b3o$102b2o31bo15bo$103bo30b
+4o$117b2o14b2obobo3b2o$109bo7bo2bo11b3obo2bo2b2o8b3o$43bo64bo3b2o7bo
+11b2obobo13b3o$41b2ob2o62bo5bo6bo12b4o13bo3bo$96bo12b5o7bo7bo5bo9bobo$
+40bo5bo47b2o21bo2bo9bo14b2o3b2o3b2o$95b2o20b2o9b3o15bo$40b2obob2o3$45b
+o$42bo2bo$45bo41bobo47bo$25bo15b2o44b2o46bobo$22b4o15bo46bo47b2o$13bo
+7b4o9b2o5bobo109b2o$12bobo6bo2bo9b2o6b2o109b2o$2o9bo3b2o4b4o5bo$2o9bo
+3b2o5b4o4bo$11bo3b2o8bo16b2o3b2o32bo$12bobo27bo5bo30b2o$13bo21bo44b2o$
+22bobo10bobo5bo3bo$23b2o10b2o7b3o$23bo2$105b2o$72bobo30bobo$72b2o33bo
+44b2o$30bo42bo33b2o43b2o$31b2o12b2o$30b2o13b2o2$146b2o$66bo78bobo$64b
+2o81bo$65b2o5$138b3o$57bobo80bo$57b2o80bo$45bo12bo$46b2o$45b2o2$131b2o
+11b2o$130bobo11b2o$132bo3$144b3o$144b3o$143bo3bo$123b3o16bo5bo72b2o$
+125bo17bo3bo72b3o$124bo19b3o63b2o5bob2o15bo$210b2o5bo2bo8b3o4bobo$217b
+ob2o16bobo4b2o$220b3o2b2o2bo7bo2bo3b2o$221b2o2bo3bo7bobo$116b2o25bobo
+80bo2bo6bobo$115bobo25bo2bo79b2o8bo$117bo27b2obo2$145bo$145bob2o69bo$
+146bo71bobo$218b2o$108b3o$110bo29b2o3b2o$109bo31b5o$141b2ob2o8bo$141b
+2ob2o6bobo56bo$142b3o8b2o55bo$210b3o$101b2o$100bobo49b2o$102bo50b2o$
+152bo8bo$142b2o18bo$142b2o16b3o40bo$203bobo$203b2o$14b2o77b3o49bo$15bo
+79bo49b2o$12b3o79bo38bobo8bobo$12bo120bo3bo$137bo10b2o46bo$123b2o8bo4b
+o7bo2bo45bo$123b2o12bo7bo7b5o37b3o$86b2o45bo3bo7bo6bo5bo$85bobo45bobo
+9bo7b2o3bo$87bo58bo2bo7bo$97b2o49b2o26bo$97bobo77bo$99bo75b3o10bo$99b
+2o87bobo$188b2o$78b3o$80bo$79bo2$181bo$180bo$180b3o$71b2o$70bobo$72bo
+6$63b3o$65bo$64bo2$166bo$165bo$165b3o$56b2o$55bobo$57bo6$30b2o16b3o$
+30b2o18bo$49bo2$151bo$150bo$150b3o$30b3o8b2o$29b2ob2o6bobo$29b2ob2o8bo
+$29b5o$28b2o3b2o3$34bo$33bob2o$33bo2$33b2obo$31bo2bo101bo$31bobo101bo$
+135b3o4$32b3o$31bo3bo$30bo5bo$31bo3bo$32b3o$32b3o4$32b2o$32b2o87b2o$
+122bo$119b3o$119bo!

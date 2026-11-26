@@ -1,0 +1,32 @@
+#N AND with a copy (Carlini, Part 4)
+#O Nicholas Carlini, 2021
+#C Both inputs on: their AND leaves E, and the S input goes on N whether or not W is on.
+#C Part 4: A Simple CPU on the Game of Life - Part 4 (2021-12-30)
+#C https://nicholas.carlini.com/writing/2021/unlimited-register-machine-game-of-life.html
+#C Section: The Register File
+#C Demo 1 on the page: <div class="circuit" kind="andx" s="1" w="1">
+#C Board as his page starts it (2021-replay.js, 2021-tree.js, 2021-circs.js); his tree has level 10 (a 1024-cell square from 0,0), outside which his simulator drops cells.
+#CXRLE Pos=60,202
+x = 199, y = 188, rule = B3/S23
+37b2o$37b3o$39b2obo8bo$24bo14bo2bo6bobo$22bobo14b2obo5bobo$12b2o6b2o
+15b3o7bo2bo11b2o134bo$11bo3bo4b2o15b2o9bobo11b2o132b3o$10bo5bo3b2o27bo
+bo143bo$2o8bo3bob2o4bobo16bo9bo143b2o$2o8bo5bo7bo14b2o$11bo3bo24b2o$
+12b2o31b2o9b2o$23bo20bo2bo7bo2bo$24b2o18b3o9b3o$23b2o22b9o$46bo2b5o2bo
+$32bobo11b2o2b3o2b2o$32b2o$32b2o150b2o$60bo2bo26bo92bobo$30bobo13b4o
+14bo120bo$31b2o2b2o8bo3bo10bo3bo25bo$31bo2bobo12bo11b4o26bo$36bo8bo2bo
+$25bo$24b4o$12b2o9b2obobo6bobo$12b2o8b3obo2bo3bo3bo$23b2obobo4bo12b2o$
+24b4o4bo4bo8b2o$25bo7bo$33bo3bo$35bobo$169b2o$168bobo$170bo2$139bo$
+137bobo$127b2o6b2o12b2o$126bo3bo4b2o12b2o$115b2o8bo5bo3b2o$115b2o8bo3b
+ob2o4bobo$125bo5bo7bo$126bo3bo$127b2o$138bo$139b2o$138b2o14b2o$153bobo
+$134b2o19bo$134b2o2$146b2o$135bo10b2o$134bobo8bobo$133bo3bo8b3o$133b5o
+7bob2o$132b2o3b2o8bo$133b5o$134b3o$135bo2$139b2o$138bobo$140bo7$136b3o
+$135bo3bo2$134bo5bo$134b2o3b2o3$137bo$136bobo$136bobo$138bo$138bo$135b
+o2bo$136b2o23$162b3o$162bo2bo$162bo$162bo$163bobo12$147b2o$147b2o4$
+154b2o$153bobo$153bobob2o$154bobobo$156bo$155b2o$154b3o$144b2o3b2o3b3o
+$146b3o5b3o$145bo3bo5b2o5b3o$146bobo7bo5bo2bo$147bo6bobobo3bo7b2o$153b
+obob2o3bo7b2o$153bobo7bobo$154b2o2$144b3o$150bobo$144bobo4b2o$143b5o3b
+o$142b2o3b2o$142b2o3b2o19b2obob2o$163b3o$163bo4bo5bo$158bo5bo$159b2o8b
+2ob2o$158b3ob2o7bo$163b2o$162bo$169bo$168bobo$167bo3bo$167b5o$155bo10b
+2o3b2o$145b2o3b2o3b2o10b5o$154bobo11b3o$146bo3bo18bo$147b3o$147b3o3$
+150bo$149b3o$148bo3bo$150bo$147bo5bo14b2o$147bo5bo14b2o$148bo3bo$149b
+3o9$150b2o$150b2o!

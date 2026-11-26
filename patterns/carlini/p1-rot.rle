@@ -1,0 +1,32 @@
+#N Rotator, input off (Carlini, Part 1)
+#O Nicholas Carlini, 2020
+#C Nothing comes in, and nothing leaves.
+#C Part 1: Digital Logic Gates on Conway's Game of Life - Part 1 (2020-04-01)
+#C https://nicholas.carlini.com/writing/2020/digital-logic-game-of-life.html
+#C Section: Rotator
+#C Demo 19 on the page: <div class="circuit" kind="rot">
+#C Board as his page starts it (2020-replay.js, 2020-tree.js, 2020-circs.js); his tree has level 10 (a 1024-cell square from 0,0), outside which his simulator drops cells.
+#CXRLE Pos=275,290
+x = 217, y = 231, rule = B3/S23
+146b2o$146b2o8$145b3o$144bo3bo$143bo5bo$143b2obob2o3$146bo$145bobo$
+145bobo$146b2o$148bo$147b3o$146bo3bo$145bob3obo$141bo4b5o$139b2o$140b
+2o6$132bobo$132b2o$133bo$148b2o$148b2o3$126bo$124b2o$125b2o6$117bobo$
+117b2o$118bo5$111bo$109b2o$110b2o5$43b2o$43b2o57bobo$102b2o$103bo3$43b
+o$41b2ob2o80b2o$96bo30bo$40bo5bo47b2o31bobo$95b2o31b2o$40b2obob2o3$45b
+o$42bo2bo$45bo41bobo$25bo15b2o44b2o$22b4o15bo46bo$13bo7b4o9b2o5bobo$
+12bobo6bo2bo9b2o6b2o$2o9bo3b2o4b4o5bo$2o9bo3b2o5b4o4bo$11bo3b2o8bo16b
+2o3b2o32bo$12bobo27bo5bo30b2o$13bo21bo44b2o$22bobo10bobo5bo3bo$23b2o
+10b2o7b3o100b2o$23bo122b2o$148bo$105b2o$72bobo30bobo$72b2o33bo$30bo42b
+o33b2o$31b2o12b2o$30b2o13b2o3$66bo$64b2o$65b2o2$162b2o$161b2o$163bo$
+138b3o$57bobo80bo$57b2o80bo$45bo12bo$46b2o$45b2o2$131b2o$130bobo$132bo
+3$177b2o$176b2o$178bo$123b3o$125bo$124bo3$170b2o14bo$170b2o14bo$116b2o
+69b2o$115bobo68b3obo$117bo70bobo$185b3obo$184bo2bo$170b3o12b2o5b2o$
+180b3o3bo4b2o$170bobo9bo10bo$108b3o58b5o7bo21b2o$110bo57b2o3b2o26bo3bo
+$109bo58b2o3b2o17bo7bo5bo$192bobo4b2obo3bo8b2o$195b2o3bo5bo8b2o$173b2o
+6b2o12b2o4bo3bo$173bob2o4b2o12b2o6b2o$101b2o73bo15bobo$100bobo89bo$
+102bo68bob3o$171bo$171bo4$14b2o77b3o$15bo79bo74b2o3b2o$12b3o79bo77b3o$
+12bo158bo3bo$172bobo$173bo2$86b2o$85bobo$87bo84b2o$97b2o73b2o$97bobo$
+99bo$99b2o2$78b3o$80bo$79bo5$71b2o$70bobo$72bo6$63b3o$65bo$64bo5$56b2o
+$55bobo$57bo6$30b2o16b3o$30b2o18bo$49bo5$30b3o8b2o$29b2ob2o6bobo$29b2o
+b2o8bo$29b5o$28b2o3b2o3$34bo$33bob2o$33bo2$33b2obo$31bo2bo$31bobo5$32b
+3o$31bo3bo$30bo5bo$31bo3bo$32b3o$32b3o4$32b2o$32b2o!

@@ -1,0 +1,22 @@
+#N A glider bounced off spaceships (Carlini, Part 3)
+#O Nicholas Carlini, 2021
+#C A glider stream from the upper right hits a spaceship stream from the left and leaves for the upper left, as if it had bounced.
+#C Part 3: Improved Logic Gates on Conway's Game of Life - Part 3 (2021-03-23)
+#C https://nicholas.carlini.com/writing/2021/improved-logic-gates-game-of-life.html
+#C Section: Starting Over with Light Weight Space Ships
+#C Demo 6 on the page: <div class="circuit" kind="collide3">
+#C Board as his page starts it (2021-replay.js, 2021-tree.js, 2021-circs.js); his tree has level 10 (a 1024-cell square from 0,0), outside which his simulator drops cells.
+#CXRLE Pos=150,165
+x = 163, y = 80, rule = B3/S23
+118b2o$118b2o10$118b3o$117bo3bo$116bo5bo$117bo3bo$118b3o$118b3o$135bo$
+134bobo$127b2o4bob2o15b2o$127b2o3b2ob2o14bobo$116b3o14bob2o13bo6b2o2b
+2o$115b2ob2o3bo10bobo13bo2bo2bo2bob2o$115b2ob2o4b2o9bo5bo8bo6b2o$115b
+5o3b2o16bobo7bobo$114b2o3b2o20b2o9b2o5$118b2o14bo$133bo$133b3o2$116b2o
+$116b2o10$119bo$118bo$41bo76b3o$40bobo$40b2obo7b2o$23bo16b2ob2o6bobo$
+23b2o15b2obob3o6bo$11b2o11b2o14bobo2bo2bo2bo2bo7b2o$10b3o3bo7b3o14bo4b
+2o6bo7b2o$7bob2o4b4o5b2o25bobo$2o5bo2bo4bo4bo2b2o26b2o$2o5bob2o5bo3bo
+2bo$10b3o3b2obo18bobo$11b2o25b2o5b2o9b2o29b3o$39bo4bo2bo7bo2bo28bo$44b
+3o9b3o29bo15bo$24bobo20b9o47bo$25b2o19bo2b5o2bo46b3o$25bo20b2o2b3o2b2o
+3$48bo2bo26bo2bo$34b4o14bo29bo$33bo3bo10bo3bo25bo3bo$37bo11b4o26b4o$
+34bobo$23b2o$23b2o4bo$12b2o6b2o6b5ob2o$12b2o5b3o5bo2b2o4bo$20b2o5b2o8b
+o8b2o$23b2o4bo7bo8b2o$23b2o12bo$36bo$34b2o!

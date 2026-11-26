@@ -1,0 +1,63 @@
+#N AND, both inputs on (Carlini, Part 1)
+#O Nicholas Carlini, 2020
+#C Both inputs on: a stream leaves SE, one glider every 60 generations.
+#C Part 1: Digital Logic Gates on Conway's Game of Life - Part 1 (2020-04-01)
+#C https://nicholas.carlini.com/writing/2020/digital-logic-game-of-life.html
+#C Section: AND
+#C Demo 12 on the page: <div class="circuit" kind="and" nw="1" sw="1">
+#C Board as his page starts it (2020-replay.js, 2020-tree.js, 2020-circs.js); his tree has level 10 (a 1024-cell square from 0,0), outside which his simulator drops cells.
+#CXRLE Pos=4,4
+x = 531, y = 799, rule = B3/S23
+46b2o$46b2o4$46bo$45b3o$44bo3bo$43bob3obo$44b5o6$45bo2b2o$45bobo$26bo
+17b2o$24bobo16b2o$15bo7bobo11b2o4b2obo$14b2o6bo2bo11b2o5b3o$3b2o8b2o4b
+2o2bobo$3b2o7b3o4b2o3bobo$13b2o4b2o5bo18b2o3b2o$14b2o32bo$15bo29bo5bo$
+27bo9bobo6b2ob2o$28bo4b2o2b2o8bobo$26b3o3b3o3bo9bo$31b2o2bo12bo$30bob
+3o$29bo4bo$33bo$30b2o$33bo14b2o$48b2o6$42bo$43bo$41b3o13$57bo$58bo$56b
+3o13$72bo$73bo$71b3o13$87bo$88bo$86b3o13$102bo$103bo$101b3o13$117bo$
+118bo$116b3o13$132bo$133bo$131b3o13$147bo$148bo$146b3o13$162bo$163bo$
+161b3o13$177bo$178bo$176b3o13$192bo$193bo$191b3o13$207bo$208bo$206b3o
+13$222bo$223bo$221b3o13$237bo$238bo$236b3o13$252bo$253bo$251b3o13$267b
+o$268bo$266b3o3$334b2o$334b2o8$335bo$282bo51b3o$283bo49b5o$281b3o48b2o
+3b2o4$334b3o$334b3o98b2o$435bo$333bo99bobo$332bobo98b2o$331bo3bo$332b
+3o$330b2o3b2o4bo$339bobo$297bo42b2o$298bo$296b3o3$348bo$349bo$347b3o2$
+332b2o$332b2o3$356bo$354bobo$312bo42b2o$313bo$311b3o37b3o$353bo$352bo$
+423b2o$423b2o3$344b2o$343bobo$345bo3$424bo$423b3o$422b5o$336b3o82b2o3b
+2o$338bo$337bo2$423b3o$423b3o14b2o$438bo3bo$329b2o91bo9b2o3bo5bo13b2o$
+328bobo90bobo8b2o2b2obo3bo13b2o$330bo89bo3bo12bo5bo10b2o6bo3b2o$421b3o
+14bo3bo10b3o5bo3bobo$419b2o3b2o4bo9b2o12b2o6b5o$428bobo14bobo9b2o4b3o$
+429b2o14b2o10b2o$446bo$321b3o$323bo$322bo$436b3o$346b2o87bo4bo$346bo
+88bo4bo$347b3o86bo3bo$314b2o33bo71b2o$313bobo105b2o$315bo3$430bobo$
+430b2o$431bo$306b3o$308bo$307bo5$299b2o$298bobo$300bo3$415bobo$415b2o$
+416bo$291b3o$293bo$292bo3$275bobo$273bo3bo5b3o$273bo7bobo2bo2b2o$266b
+2o4bo4bo7b2o2bo2bo$266b2o5bo19bo$273bo3bo2b3o10bo6b2o$275bobo15bo6b2o$
+289bo2bo107bobo$289b2o109b2o103bobo$307bo93bo102bo2bo$307b3o185b2o6b2o
+10bo6bo$310bo184b2o4b2o3bo8bo5bobo$309b2o96b2o94b2o9bo6b2obo4b2o$407b
+2o95bo2bo2b2o9b2ob2o3b2o$505bobo2bo2b3o5b2obo$510b4o7bobo$408bo102b2o
+9bo$407b3o$406bo3bo$408bo$405bo5bo92bo$405bo5bo90b2o$385bobo18bo3bo92b
+2o$321b2o62b2o20b3o$321b2o63bo4$410bo84bobo$495b2o$329bo166bo$328b2o
+80bo$328bobo77bobo$409b2o2$309bo179bo$309b2o176b2o$308bobo92b2o3b2o78b
+2o$336b2o31b2o46bo$335b2o31bobo33bo3bo9bo$337bo30bo36b3o8b3o$367b2o36b
+3o2$316b2o162bobo$300b3o13b2o162b2o$300b3o41bo136bo$298bob2o41b2o60b2o
+$296b2o45bobo59b2o$299bobo$300b3o$294bo6bo106b2o64bo$294b2o10b2o7b3o
+91b2o61b2o$293bobo10bobo5bo3bo79bo9bo64b2o$284bo21bo44b2o45bobo31bo$
+283bobo27bo5bo30b2o47bobo9b2o5bo14bo$282bo3b2o8bo16b2o3b2o32bo33b2o11b
+o2bo7b3o3bo3bo10b3o$271b2o9bo3b2o5b4o4bo84b2o11bobo5bob2o5bo$271b2o9bo
+3b2o4b4o5bo96bobo6bo2bo4bo5bo$283bobo6bo2bo9b2o6b2o83bo8bob2o9b2o43bob
+o$284bo7b4o9b2o5bobo95b3o52b2o$293b4o15bo46bo51b2o53bo$296bo15b2o44b2o
+$316bo41bobo$313bo2bo$316bo$459bo$457b2o$311b2obob2o140b2o$366b2o79bo$
+311bo5bo47b2o81bo$367bo78b3o$312b2ob2o$314bo$450bobo$450b2o$374bo76bo$
+373b2o$314b2o57bobo$314b2o2$444bo$442b2o$443b2o$381b2o$380b2o$382bo3$
+435b2o$434bobo$389bo44bo$388b2o43b2o$388bobo6$396b2o$395b2o$397bo3$
+419b2o$419b2o$404bo$403b2o$403bobo3$312b2o$311bobo$313bo$411b2o$410b2o
+$412bo4b5o$416bob3obo$417bo3bo$418b3o$419bo$417b2o$416bobo$416bobo$
+417bo2$297b2o$296bobo115b2obob2o$298bo115bo5bo$415bo3bo$416b3o8$417b2o
+$417b2o2$282b2o$281bobo$283bo13$267b2o$266bobo$268bo13$252b2o$251bobo$
+253bo13$237b2o$236bobo$238bo13$222b2o$221bobo$223bo13$207b2o$206bobo$
+208bo13$192b2o$191bobo$193bo13$177b2o$176bobo$178bo13$162b2o$161bobo$
+163bo13$147b2o$146bobo$148bo13$132b2o$131bobo$133bo13$117b2o$116bobo$
+118bo13$102b2o$101bobo$103bo13$87b2o$86bobo$88bo13$72b2o$71bobo$73bo
+13$57b2o$56bobo$58bo5$23bobo$23bo2bo$8bo6bo10b2o6b2o$7bobo5bo8bo3b2o4b
+2o$2o4bob2o6bo9b2o$2o3b2ob2o9b2o2bo2bo$6bob2o5b3o2bo2bobo$7bobo7b4o$8b
+o9b2o22b2o$41bobo$43bo2$26bo$19b2o6b2o$19b2o5b2o2$29bo$27b2ob2o$27b2ob
+obobo$28b3o$29bo3bo$30bo2bo$31bo$27b2o$26bobo$17b2o3b2o4bo$19b3o$18bo
+3bo$19bobo$20bo2$21b3o$21b3o4$19b2o3b2o$20b5o$21b3o$22bo8$21b2o$21b2o!

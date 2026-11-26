@@ -1,0 +1,62 @@
+#N OR, NW input on (Carlini, Part 1)
+#O Nicholas Carlini, 2020
+#C The NW input alone is enough: a stream leaves SE.
+#C Part 1: Digital Logic Gates on Conway's Game of Life - Part 1 (2020-04-01)
+#C https://nicholas.carlini.com/writing/2020/digital-logic-game-of-life.html
+#C Section: OR
+#C Demo 15 on the page: <div class="circuit" kind="or" nw="1">
+#C Board as his page starts it (2020-replay.js, 2020-tree.js, 2020-circs.js); his tree has level 10 (a 1024-cell square from 0,0), outside which his simulator drops cells.
+#CXRLE Pos=7,4
+x = 524, y = 534, rule = B3/S23
+43b2o$43b2o4$43bo$42b3o$41bo3bo$40bob3obo$41b5o6$42bo2b2o$42bobo$23bo
+17b2o$21bobo16b2o$12bo7bobo11b2o4b2obo$11b2o6bo2bo11b2o5b3o$2o8b2o4b2o
+2bobo$2o7b3o4b2o3bobo$10b2o4b2o5bo18b2o3b2o$11b2o32bo$12bo29bo5bo$24bo
+9bobo6b2ob2o$25bo4b2o2b2o8bobo$23b3o3b3o3bo9bo$28b2o2bo12bo$27bob3o$
+26bo4bo$30bo$27b2o$30bo14b2o$45b2o6$39bo$40bo$38b3o13$54bo$55bo$53b3o
+13$69bo$70bo$68b3o13$84bo$85bo$83b3o13$99bo$100bo$98b3o13$114bo$115bo$
+113b3o13$129bo$130bo$128b3o13$144bo$145bo$143b3o13$159bo$160bo$158b3o
+13$174bo$175bo$173b3o13$189bo$190bo$188b3o13$204bo$205bo$203b3o13$219b
+o$220bo$218b3o13$234bo$235bo$233b3o13$249bo$250bo$248b3o13$264bo$265bo
+$263b3o133b2o$399b2o4$398b3o$398b3o$397bo3bo$396bo5bo$397bo3bo$398b3o
+3$279bo$280bo$278b3o118bobo$398bo2bo$378bo17bob2o$377bobo$367b2o7bob2o
+10b2o7bo$366bobo6b2ob2o10b2o4b2obo$356b2o7bo6b3obob2o18bo$356b2o7bo2bo
+2bo2bo2bobo$365bo6b2o4bo$366bobo29b2o3b2o$367b2o30b5o$390bo8b2ob2o$
+379bobo3bobo2bobo6b2ob2o$294bo85b2o2bo3bob2o8b3o115b2o$295bo84bo7bo39b
+o88bobo$293b3o87bobob2o37b3o87b3o$385bobo37bo90b2o$383bo41b2o89b2o$
+385bo131bobo$401b2o115bo$401b2o2$515b2o3b2o$418b2o95b2o3b2o$419b2o$
+418bo98b3o$517b3o$394bobo121bo$309bo85b2o$310bo84bo$308b3o3$516bo$514b
+2o$515b2o2$519b3o$403b2o113bo3bo$404b2o111bo5bo$403bo113bo5bo$507bobo
+10bo$507b2o9bo3bo$508bo10b3o$520bo$396bo$396b2o$395bobo122b2o$501bo18b
+2o$499b2o$500b2o3$388b2o$389b2o$388bo$492bobo$492b2o$493bo2$381bo$381b
+2o$380bobo$486bo$484b2o$485b2o3$373b2o$374b2o$373bo$477bobo$477b2o$
+408b2o68bo$409bo$366bo42bobo$366b2o42b2o$365bobo$471bo$469b2o$470b2o3$
+358b2o$359b2o$358bo$462bobo$462b2o$463bo2$351bo$351b2o$350bobo$330b2o
+124bo$330b2o122b2o$455b2o$331bo$330bobo$330bobo10b2o$331bo12b2o$343bo$
+389bo57bobo$328b2obob2o53bobo56b2o$286b2o40bo5bo43b2o6b2o3bo9b2o45bo$
+286bo2bo39bo3bo43bobo4b2obo3bo9b2o$272bobo15bo6b2o31b3o3bo30b2o7b3o4b
+3obo3bo$270bo3bo2b3o10bo6b2o37b2o29b2o6b3o4bo2b2obobo$263b2o5bo19bo44b
+obo38b3o4b2o4bo$263b2o4bo4bo7b2o2bo2bo87bobo$270bo7bobo2bo2b2o90b2o58b
+o2bo$270bo3bo5b3o155bo3bo$272bobo117bo46bobo$390bobo47bo$333bo57b2o$
+289bo43bo116b2o$290bo41bobo114b2o$288b3o40b2ob2o115bo$330bo5bo$333bo
+65bo$330b2o3b2o63bo$398b3o2$297bo36bo$295bobo36bo$296b2o37bo2$407bo$
+332b2o71bobo$332b2o72b2o$304bo160b2o$305bo158b2o$303b3o160bo2$414bo$
+415bo$413b3o2$312bo$310bobo$311b2o$436bo$422bo11b3o$420bobo10bo$421b2o
+10b2o29b2o$319bo144b2o14b2o$320bo158b2o$318b3o160bo2$429bo$430bo$428b
+3o$488bo$327bo145b2o12b2o$325bobo136b3o5bobo12bobo8bobo$326b2o135bo3bo
+6bo21bo3bo$462bo5bo15b2o10bo$437bo24bo5bo15bo2bo7bo4bo8b2o$435bobo38b
+5o7bo7bo12b2o$436b2o30bo6bo5bo6bo7bo3bo$334bo21bo110b2o6bo3b2o7bo9bobo
+$335bo18b3o110b2o7bo7bo2bo28bo$333b3o17bo111bo2b2o14b2o28b3o$353b2o
+111bobo44bo$444bo21b2o45b2o$445bo$443b3o$464b2o3b2o$342bo121b2o3b2o$
+340bobo$341b2o123b3o$466b3o$452bo14bo$450bobo$451b2o$349bo$350bo$348b
+3o$466b2o$459bo6b2o$460bo$458b3o2$357bo$355bobo$356b2o2$467bo$465bobo$
+466b2o$364bo$365bo$363b3o2$474bo$475bo$473b3o2$372bo104b2o$370bobo104b
+o$371b2o105b3o$480bo2$348bo24b2o73b2o$348bobo23b2o72b2o$331b2o18b2o4b
+2o14bo60bo10b2o6bo3b2o$329bo3bo17b2o4b2o75bobo7b3o5bo3bobo$323b2o3bo5b
+o16b2o70b2o12b2o6b2o6b5o$323b2o2b2obo3bo8bo4bobo72b2o12b2o9b2o4b3o11b
+2o$328bo5bo9bo3bo88b2o9b2o19b2o$329bo3bo5bo2b3o89bobo31bo$331b2o101bo
+11bo$444bobo$445b2o3$342b2o7bo90b2o$342b2o5bobo90b2o$350b2o6b2o$359b2o
+$358bo2$443bo$441b2ob2o7b2o$454b2o$351bo88bo5bo6bo$343bo7b2o$342b3o5bo
+bo87b2obob2o$341b5o$340b2o3b2o55b2o$341b5o56bobo41b2o$341b5o58bo40bobo
+$342bo2bo58b2o40bo$342bo3bo98b2o$346bo98b3o$343b2obo99b2o$345bo98bo3$
+342b2o3b2o$342bo5bo96bo$444b3o$343bo3bo95b5o$344b3o95b2o3b2o$443b5o$
+443bo3bo$444bobo$445bo3$344b2o98b2o$344b2o98b2o!

@@ -1,0 +1,43 @@
+#N Rotator, input on (Carlini, Part 1)
+#O Nicholas Carlini, 2020
+#C A stream comes in from the NW and leaves NE, turned a quarter.
+#C Part 1: Digital Logic Gates on Conway's Game of Life - Part 1 (2020-04-01)
+#C https://nicholas.carlini.com/writing/2020/digital-logic-game-of-life.html
+#C Section: Rotator
+#C Demo 20 on the page: <div class="circuit" kind="rot" nw="1">
+#C Board as his page starts it (2020-replay.js, 2020-tree.js, 2020-circs.js); his tree has level 10 (a 1024-cell square from 0,0), outside which his simulator drops cells.
+#CXRLE Pos=7,4
+x = 485, y = 517, rule = B3/S23
+43b2o$43b2o4$43bo$42b3o$41bo3bo$40bob3obo$41b5o6$42bo2b2o$42bobo$23bo
+17b2o$21bobo16b2o$12bo7bobo11b2o4b2obo$11b2o6bo2bo11b2o5b3o$2o8b2o4b2o
+2bobo$2o7b3o4b2o3bobo$10b2o4b2o5bo18b2o3b2o$11b2o32bo$12bo29bo5bo$24bo
+9bobo6b2ob2o$25bo4b2o2b2o8bobo$23b3o3b3o3bo9bo$28b2o2bo12bo$27bob3o$
+26bo4bo$30bo$27b2o$30bo14b2o$45b2o6$39bo$40bo$38b3o13$54bo$55bo$53b3o
+13$69bo$70bo$68b3o13$84bo$85bo$83b3o13$99bo$100bo$98b3o13$114bo$115bo$
+113b3o13$129bo$130bo$128b3o13$144bo$145bo$143b3o13$159bo$160bo$158b3o
+13$174bo$175bo$173b3o13$189bo$190bo$188b3o13$204bo$205bo$203b3o13$219b
+o$220bo$218b3o13$234bo$235bo$233b3o13$249bo$250bo$248b3o13$264bo$265bo
+$263b3o13$279bo$280bo$278b3o3$414b2o$414b2o8$413b3o$294bo117bo3bo$295b
+o115bo5bo$293b3o115b2obob2o3$414bo$413bobo$413bobo$414b2o$416bo$415b3o
+$414bo3bo$413bob3obo$409bo4b5o$407b2o$309bo98b2o$310bo$308b3o4$400bobo
+$400b2o$401bo$416b2o$416b2o3$394bo$392b2o$393b2o6$385bobo$385b2o$386bo
+5$379bo$377b2o$378b2o5$311b2o$311b2o57bobo$370b2o$371bo3$311bo$309b2ob
+2o80b2o$364bo30bo$308bo5bo47b2o31bobo$363b2o31b2o$308b2obob2o3$313bo$
+310bo2bo$313bo41bobo$293bo15b2o44b2o$290b4o15bo46bo$281bo7b4o9b2o5bobo
+$280bobo6bo2bo9b2o6b2o$268b2o9bo3b2o4b4o5bo$268b2o9bo3b2o5b4o4bo$279bo
+3b2o8bo16b2o3b2o32bo$280bobo27bo5bo30b2o$281bo21bo44b2o$290bobo10bobo
+5bo3bo$291b2o10b2o7b3o100b2o$291bo122b2o$416bo$373b2o$340bobo30bobo$
+340b2o33bo$298bo42bo33b2o$299b2o12b2o$298b2o13b2o3$334bo$332b2o$333b2o
+2$430b2o$429b2o$431bo$406b3o$325bobo80bo$325b2o80bo$313bo12bo$314b2o$
+313b2o2$399b2o$398bobo$400bo3$445b2o$444b2o$446bo$391b3o$393bo$392bo3$
+438b2o14bo$438b2o14bo$384b2o69b2o$383bobo68b3obo$385bo70bobo$453b3obo$
+452bo2bo$438b3o12b2o5b2o$448b3o3bo4b2o$438bobo9bo10bo$376b3o58b5o7bo
+21b2o$378bo57b2o3b2o26bo3bo$377bo58b2o3b2o17bo7bo5bo$460bobo4b2obo3bo
+8b2o$463b2o3bo5bo8b2o$441b2o6b2o12b2o4bo3bo$441bob2o4b2o12b2o6b2o$369b
+2o73bo15bobo$368bobo89bo$370bo68bob3o$439bo$439bo4$282b2o77b3o$283bo
+79bo74b2o3b2o$280b3o79bo77b3o$280bo158bo3bo$440bobo$441bo2$354b2o$353b
+obo$355bo84b2o$365b2o73b2o$365bobo$367bo$367b2o2$346b3o$348bo$347bo5$
+339b2o$338bobo$340bo6$331b3o$333bo$332bo5$324b2o$323bobo$325bo6$298b2o
+16b3o$298b2o18bo$317bo5$298b3o8b2o$297b2ob2o6bobo$297b2ob2o8bo$297b5o$
+296b2o3b2o3$302bo$301bob2o$301bo2$301b2obo$299bo2bo$299bobo5$300b3o$
+299bo3bo$298bo5bo$299bo3bo$300b3o$300b3o4$300b2o$300b2o!

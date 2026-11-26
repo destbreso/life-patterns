@@ -1,0 +1,46 @@
+#N XOR, both inputs on (Carlini, Part 3)
+#O Nicholas Carlini, 2021
+#C Both inputs on: three ships get out before the second input arrives, then none.
+#C Part 3: Improved Logic Gates on Conway's Game of Life - Part 3 (2021-03-23)
+#C https://nicholas.carlini.com/writing/2021/improved-logic-gates-game-of-life.html
+#C Section: XOR gate
+#C Demo 13 on the page: <div class="circuit" kind="xor" s="1" w="1">
+#C Board as his page starts it (2021-replay.js, 2021-tree.js, 2021-circs.js); his tree has level 10 (a 1024-cell square from 0,0), outside which his simulator drops cells.
+#CXRLE Pos=60,163
+x = 241, y = 227, rule = B3/S23
+141b2o$141b2o9$138b2obob2o2$138bo5bo2$139b2ob2o$141bo2$122bo$122b4o$
+106bo16b4o5b2o$105bobo5b2o8bo2bo5b2o$98b2o3b2o3bo14b4o11bo$98b2o3b2o3b
+o4bobob2o3b4o10b2o4b3o$103b2o3bo5b2o3bo2bo14b2o2bo3bo$105bobo10bo$106b
+o8bo2bo21bo5bo$140b2o3b2o3$125bo17bo$126bo15bobo$106b2o16b3o15bobo$
+106b2o34bo$142bo$142bo2bo$143b2o4$37b2o154bobo$37b3o151bo3bo$39b2obo8b
+o139bo19bo$24bo14bo2bo6bobo54b3o74bo6bo4bo14b4o$22bobo14b2obo5bobo54bo
+3bo72bobo6bo12bo4b2obobo$12b2o6b2o15b3o7bo2bo11b2o40bo5bo29bo24b2o14bo
+3b2o4bo3bo3bob2o5b3obo2bo2b2o$11bo3bo4b2o15b2o9bobo11b2o41bo3bo31bo23b
+obo13bo3b2o6bobo2bob4o5b2obobo3b2o$10bo5bo3b2o27bobo54b3o30b3o18b2o4b
+3o12bo3b2o11b2o2b2o6b4o$2o8bo3bob2o4bobo16bo9bo54b3o47b4o2bo4b3o12bobo
+26bo$2o8bo5bo7bo14b2o115b3ob2o4b3o7bo6bo$11bo3bo24b2o60b2o61bobo9b2o$
+12b2o31b2o9b2o43bobo61b2o9b2o23b2o9b2o$23bo20bo2bo7bo2bo41bo6b2o91bo2b
+o7bo2bo$24b2o18b3o9b3o32b2o7bo2bo2bo2bo81bobo6b3o9b3o$23b2o22b9o35b2o
+7bo6b2o82b2o10b9o$46bo2b5o2bo44bobo88bo9bo2b5o2bo$32bobo11b2o2b3o2b2o
+45b2o60b2o36b2o2b3o2b2o$32b2o130bo18bobo$32b2o128bobo19b2o$60bo2bo26bo
+71b2o20bo$30bobo13b4o14bo90bo40b4o$31b2o2b2o8bo3bo10bo3bo25bo65bo38bo
+3bo$31bo2bobo12bo11b4o26bo62b3o42bo$36bo8bo2bo146bo2bo$25bo151b2o9b2o$
+24b4o149bobo7bobo17bobo$12b2o9b2obobo6bobo130b2o2b2o6bo8bo5bo12bo$12b
+2o8b3obo2bo3bo3bo130b2obo2bo2bo2bo13bobo$23b2obobo4bo12b2o124b2o6bo13b
+2obo4b2o$24b4o4bo4bo8b2o129bobo14b2ob2o3b2o$25bo7bo143b2o15b2obo$33bo
+3bo156bobo$35bobo157bo3$170bo$171bo$169b3o50b2o4bo2bob2obo2bo$222bobo
+2b2o2bo4bo2b2o$222bo5bo2bob2obo2bo2$224bo$224bo$223b3o3$223b3o$224bo$
+211bo12bo$211b2o11bo$185bo24bobo11bo$186bo36b3o$184b3o2$223b3o$224bo$
+224bo7$182b2o6b2o4bo$181bo2bo4bo2bo3b2o$181bo2bo4bo2bo2bobo$181bo2bo4b
+o2bo$182b2o6b2o$196b3o2$195bo3bo$195bo3bo2$158b2o15b2o19b3o$155bo3bo
+15bo$154bobo2bobo11bobo$154bobo3b2o11b2o21b3o$152b3ob2o9bo$151bo14bobo
+26bo3bo$152b3ob2o8bobo26bo3bo$154bob2o9bo$196b3o2$151b2o2b2o$151bo2bob
+o$152bobo$151b2ob2o13b2o$154bo14bo$154bobo13b3o$155b2o15bo19$162b3o$
+162bo2bo$162bo$162bo$163bobo12$147b2o$147b2o4$154b2o$153bobo$153bobob
+2o$154bobobo$156bo$155b2o$154b3o$144b2o3b2o3b3o$146b3o5b3o$145bo3bo5b
+2o5b3o$146bobo7bo5bo2bo$147bo6bobobo3bo7b2o$153bobob2o3bo7b2o$153bobo
+7bobo$154b2o2$144b3o$150bobo$144bobo4b2o$143b5o3bo$142b2o3b2o$142b2o3b
+2o19b2obob2o$163b3o$163bo4bo5bo$158bo5bo$159b2o8b2ob2o$158b3ob2o7bo$
+163b2o$162bo$169bo$168bobo$167bo3bo$167b5o$155bo10b2o3b2o$145b2o3b2o3b
+2o10b5o$154bobo11b3o$146bo3bo18bo$147b3o$147b3o3$150bo$149b3o$148bo3bo
+$150bo$147bo5bo14b2o$147bo5bo14b2o$148bo3bo$149b3o9$150b2o$150b2o!

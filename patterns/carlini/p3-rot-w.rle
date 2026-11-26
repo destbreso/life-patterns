@@ -1,0 +1,30 @@
+#N Rotator, input on (Carlini, Part 3)
+#O Nicholas Carlini, 2021
+#C A stream from the W leaves N, turned a quarter.
+#C Part 3: Improved Logic Gates on Conway's Game of Life - Part 3 (2021-03-23)
+#C https://nicholas.carlini.com/writing/2021/improved-logic-gates-game-of-life.html
+#C Section: Rotate gate
+#C Demo 9 on the page: <div class="circuit" kind="rot" w="1">
+#C Board as his page starts it (2021-replay.js, 2021-tree.js, 2021-circs.js); his tree has level 10 (a 1024-cell square from 0,0), outside which his simulator drops cells.
+#CXRLE Pos=60,186
+x = 229, y = 112, rule = B3/S23
+137b2o$138bo$138bobo$139b2o13$37b2o$37b3o$39b2obo8bo$24bo14bo2bo6bobo$
+22bobo14b2obo5bobo$12b2o6b2o15b3o7bo2bo11b2o$11bo3bo4b2o15b2o9bobo11b
+2o$10bo5bo3b2o27bobo$2o8bo3bob2o4bobo16bo9bo$2o8bo5bo7bo14b2o$11bo3bo
+24b2o$12b2o31b2o9b2o$23bo20bo2bo7bo2bo$24b2o18b3o9b3o$23b2o22b9o$46bo
+2b5o2bo$32bobo11b2o2b3o2b2o113b2o$32b2o136bobo$32b2o128b3o5bo$60bo2bo
+26bo71bo2bo$30bobo13b4o14bo97bo$31b2o2b2o8bo3bo10bo3bo25bo71bo$31bo2bo
+bo12bo11b4o26bo71bobo$36bo8bo2bo$25bo$24b4o$12b2o9b2obobo6bobo$12b2o8b
+3obo2bo3bo3bo$23b2obobo4bo12b2o$24b4o4bo4bo8b2o$25bo7bo$33bo3bo147b2o$
+35bobo109b2o36bobo$147b2o36bo3$145bo$146bo7b2o$146bo6bobo$153bobob2o$
+154bobobo$144b2o3b2o5bo$147bo7b2o$144bo5bo3b3o25b2o$145b2ob2o4b3o25bo
+2bo$146bobo5b3o$147bo7b2o29bo13b2o$147bo8bo43bobo$154bobobo3b3o5b2o12b
+2o14bo$153bobob2o3bo2bo4bobo10bo$153bobo6bo8b3o$154b2o6bo9b2o$163bobo
+6b2o6b2o3b2o$149bobo18bobo7b2o3b2o32b2o$150b2o19bo9b5o3bo17b3o2bo5bo3b
+o$144b3o3bo31bobo4b2o12bo3bo9bo5bo$143bo3bo40bobo10bobo4bo8bo3bob2o2b
+2o$142bo5bo19b2o3b2o7b3o14b2o16bo5bo3b2o$142b2obob2o19b2o3b2o18b2o4b2o
+17bo3bo$193b2o4b2o18b2o$157bo6b3o3b3o28bobo$158b2o4bo5b3o30bo$157b2o6b
+o5bo13bo$184bobo$161b2o20bo3bo$148b2o12b2o20b3o$161bo20b2o3b2o2$168b3o
+$145b2o3b2o16b3o$145b2o3b2o15bo3bo$146b5o3bo$147bobo4b2o10b2o3b2o$153b
+obo$147b3o3$184b2o$184b2o$150bo$149bobo$148bo3bo$149b3o16b2o$147b2o3b
+2o14b2o11$150b2o$150b2o!

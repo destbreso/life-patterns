@@ -1,0 +1,32 @@
+#N NOT, input on (Carlini, Part 1)
+#O Nicholas Carlini, 2020
+#C A stream comes in from the NW and stops the output: four gliders get out before it arrives, then none.
+#C Part 1: Digital Logic Gates on Conway's Game of Life - Part 1 (2020-04-01)
+#C https://nicholas.carlini.com/writing/2020/digital-logic-game-of-life.html
+#C Section: NOT
+#C Demo 8 on the page: <div class="circuit" kind="not" nw="1">
+#C Board as his page starts it (2020-replay.js, 2020-tree.js, 2020-circs.js); his tree has level 10 (a 1024-cell square from 0,0), outside which his simulator drops cells.
+#CXRLE Pos=7,4
+x = 434, y = 503, rule = B3/S23
+43b2o$43b2o4$43bo$42b3o$41bo3bo$40bob3obo$41b5o6$42bo2b2o$42bobo$23bo
+17b2o$21bobo16b2o$12bo7bobo11b2o4b2obo$11b2o6bo2bo11b2o5b3o$2o8b2o4b2o
+2bobo$2o7b3o4b2o3bobo$10b2o4b2o5bo18b2o3b2o$11b2o32bo$12bo29bo5bo$24bo
+9bobo6b2ob2o$25bo4b2o2b2o8bobo$23b3o3b3o3bo9bo$28b2o2bo12bo$27bob3o$
+26bo4bo$30bo$27b2o$30bo14b2o$45b2o6$39bo$40bo$38b3o13$54bo$55bo$53b3o
+13$69bo$70bo$68b3o13$84bo$85bo$83b3o13$99bo$100bo$98b3o13$114bo$115bo$
+113b3o13$129bo$130bo$128b3o13$144bo$145bo$143b3o13$159bo$160bo$158b3o
+13$174bo$175bo$173b3o13$189bo$190bo$188b3o13$204bo$205bo$203b3o13$219b
+o$220bo$218b3o13$234bo$235bo$233b3o13$249bo$250bo$248b3o13$264bo$265bo
+$263b3o113bo$378b2o$362b2o13b2o4b2o2b2o$362b3o11b3o4b2o2b2o$353b2o9b2o
+bo9b2o4b2o$353bo5bo4bo2bo10b2o$358bo5b2obo11bo$354bo3bo3b3o10bo$356bo
+5b2o9bobo$374b2o4$279bo$280bo$278b3o9$433bo$431b3o$430bo$430b2o$294bo$
+295bo$293b3o13$309bo$310bo$308b3o30$381bo$381b2o$380bobo6$373b2o$374b
+2o$373bo5$366bo$366b2o$365bobo6$358b2o$359b2o$358bo5$351bo$351b2o$350b
+obo$330b2o$330b2o2$331bo$330bobo$330bobo10b2o$331bo12b2o$343bo2$328b2o
+bob2o$328bo5bo$329bo3bo$330b3o3bo$336b2o$335bobo6$333bo$333bo$332bobo$
+331b2ob2o$330bo5bo$333bo$330b2o3b2o3$334bo$334bo$335bo3$332b2o$332b2o
+32$354b2o$353bobo$355bo9$318bo$315b4o$306bo7b4o9b2o$305bobo6bo2bo9b2o$
+293b2o9bo3b2o4b4o5bo15b2o$293b2o9bo3b2o5b4o4bo14bobo$304bo3b2o8bo21bo$
+305bobo$306bo$315bobo$316b2o$316bo2$312b2o$312b2o4$313bo$312b3o9b2o$
+311bo3bo7bobo$310bob3obo8bo$311b5o5$316b3o$318bo$317bo7$314b3o$313bo3b
+o$312bo5bo$312b2obob2o3$315bo$314bobo$314bobo$315bo2$314b2o$314b2o!

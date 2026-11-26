@@ -1,0 +1,21 @@
+#N NOT, input off (Carlini, Part 1)
+#O Nicholas Carlini, 2020
+#C With nothing coming in from the NW, the gate's own stream leaves NE: a 1, one glider every 60 generations.
+#C Part 1: Digital Logic Gates on Conway's Game of Life - Part 1 (2020-04-01)
+#C https://nicholas.carlini.com/writing/2020/digital-logic-game-of-life.html
+#C Section: NOT
+#C Demo 7 on the page: <div class="circuit" kind="not">
+#C Board as his page starts it (2020-replay.js, 2020-tree.js, 2020-circs.js); his tree has level 10 (a 1024-cell square from 0,0), outside which his simulator drops cells.
+#CXRLE Pos=300,272
+x = 141, y = 235, rule = B3/S23
+86bo$85b2o$69b2o13b2o4b2o2b2o$69b3o11b3o4b2o2b2o$60b2o9b2obo9b2o4b2o$
+60bo5bo4bo2bo10b2o$65bo5b2obo11bo$61bo3bo3b3o10bo$63bo5b2o9bobo$81b2o
+15$140bo$138b3o$137bo$137b2o48$88bo$88b2o$87bobo6$80b2o$81b2o$80bo5$
+73bo$73b2o$72bobo6$65b2o$66b2o$65bo5$58bo$58b2o$57bobo$37b2o$37b2o2$
+38bo$37bobo$37bobo10b2o$38bo12b2o$50bo2$35b2obob2o$35bo5bo$36bo3bo$37b
+3o3bo$43b2o$42bobo6$40bo$40bo$39bobo$38b2ob2o$37bo5bo$40bo$37b2o3b2o3$
+41bo$41bo$42bo3$39b2o$39b2o32$61b2o$60bobo$62bo9$25bo$22b4o$13bo7b4o9b
+2o$12bobo6bo2bo9b2o$2o9bo3b2o4b4o5bo15b2o$2o9bo3b2o5b4o4bo14bobo$11bo
+3b2o8bo21bo$12bobo$13bo$22bobo$23b2o$23bo2$19b2o$19b2o4$20bo$19b3o9b2o
+$18bo3bo7bobo$17bob3obo8bo$18b5o5$23b3o$25bo$24bo7$21b3o$20bo3bo$19bo
+5bo$19b2obob2o3$22bo$21bobo$21bobo$22bo2$21b2o$21b2o!
