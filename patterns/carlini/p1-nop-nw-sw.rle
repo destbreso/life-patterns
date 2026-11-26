@@ -1,6 +1,6 @@
 #N Two streams crossing, no crossover (Carlini, Part 1)
 #O Nicholas Carlini, 2020
-#C Two streams cross with nothing between them: they wreck each other and scatter debris.
+#C What the crossover is for: two streams crossing with nothing between them wreck each other, the post's "nasty explosion".
 #C Part 1: Digital Logic Gates on Conway's Game of Life - Part 1 (2020-04-01)
 #C https://nicholas.carlini.com/writing/2020/digital-logic-game-of-life.html
 #C Section: Crossover
